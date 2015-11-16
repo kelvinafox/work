@@ -65,7 +65,7 @@
 				
 				<!-- Giant Bikes -->
 				<div class="container">
-					<h1>Giant Lifestyle Bikes</h1>
+					<h1>Giant Kids Bikes</h1>
 				</div>
 				<div id="catalogue" class="container-fluid">
 					<!-- Generate Content -->
@@ -80,8 +80,8 @@
 									+ '<div class="caption">'
 										+ '<h3>' + bike_titles_giant[i] + '</h3>'
 										+ '<p>' + bike_descriptions_giant[i] + '</p>'
-										+ '<p><button type="button" class="btn btn-default" id="btn' + i + '">More Info</button></p>'
-											+ '<div class="modal fade" id="modal' + i + '" role="dialog">'
+										+ '<p><button type="button" class="btn btn-default" id="btn-giant' + i + '">More Info</button></p>'
+											+ '<div class="modal fade" id="modal-giant' + i + '" role="dialog">'
 											    + '<div class="modal-dialog">'
 											    
 											      //<!-- Modal content-->
@@ -115,7 +115,7 @@
 			<div class="panel panel-default">
 				<!-- Liv Bikes -->
 				<div class="container">
-					<h1>Liv Lifestyle Bikes</h1>
+					<h1>Liv Kids Bikes</h1>
 				</div>
 				<div id="catalogue-liv" class="container-fluid">
 					<script>
@@ -129,8 +129,8 @@
 									+ '<div class="caption">'
 										+ '<h3>' + bike_titles_liv[i] + '</h3>'
 										+ '<p>' + bike_descriptions_liv[i] + '</p>'
-										+ '<p><button type="button" class="btn btn-default" id="btn' + i + '">More Info</button></p>'
-											+ '<div class="modal fade" id="modal' + i + '" role="dialog">'
+										+ '<p><button type="button" class="btn btn-default" id="btn-liv' + i + '">More Info</button></p>'
+											+ '<div class="modal fade" id="modal-liv' + i + '" role="dialog">'
 											    + '<div class="modal-dialog">'
 											    
 											      //<!-- Modal content-->
@@ -168,19 +168,17 @@
 	      </div>
 	    </footer>
 
-
 <!-- MUST STAY ON THE BOTTOM -->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-
-		
+	
 		<!-- Modal Scripts -->
 		<!-- Giant -->
 		<script>
 		for (i = 0; i < num_items_giant; i++) {
-			setupButton("btn" + i, "modal" + i);
+			setupButton("btn-giant" + i, "modal-giant" + i);
 		}
 		function setupButton(button, modal){
 			$(document).ready(function(){
@@ -193,7 +191,7 @@
 		<!-- Liv -->
 		<script>
 		for (i = 0; i < num_items_liv; i++) {
-			setupButton("btn" + i, "modal" + i);
+			setupButton("btn-liv" + i, "modal-liv" + i);
 		}
 		function setupButton(button, modal){
 			$(document).ready(function(){
