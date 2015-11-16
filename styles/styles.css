@@ -18,3 +18,11 @@ p {
 #map-container {
 	height: 300px;
 }
+
+#logo {
+	width: 250px;
+}
+
+.logo-align {
+	vertical-align: middle;
+}
