@@ -97,7 +97,7 @@ var bike_modal_descriptions_liv = ["This is a test modal body",
 						    	   "This is a test modal body",
 						           "This is a test modal body",
 						           "This is a test modal body",
-						           "THis is a test bodal body"];
+						           "This is a test bodal body"];
 
 // Kona Brand
 var num_items_kona = 4;
