@@ -42,14 +42,14 @@ var bike_modal_titles_giant = ["Giant Anthem X 29er",
 						  "Giant Revel 2"];
 
 var bike_modal_descriptions_giant = ["<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=640303\"></iframe>",
-						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600328\"></iframe>",
-						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600329\"></iframe>",
-						       "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600326\"></iframe>",
-						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600402\"></iframe>",
-						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600403\"></iframe>",
-						       "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600404\"></iframe>",
-				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600516\"></iframe>",
-				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600411\"></iframe>"];
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600328\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600329\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600326\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600402\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600403\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600404\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600516\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600411\"></iframe>"];
 
 // Liv Brand
 var num_items_liv = 8;
