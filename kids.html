@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Kids Bikes | Bike Masters</title>
+		<link rel="icon" type="image/png" href="pictures/icon.png">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/styles.css">
+		
+		<!-- Load Content -->
+		<script src="js/kids_content.js"></script>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-inverse">
+					 <div class="container-fluid">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand" href="index.html">Bike Masters</a>
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+					        <li><a href="shop.html">Shop Services</a></li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bikes <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="road.html">Road</a></li>
+					            <li><a href="mtb.html">Mountain</a></li>
+					            <li><a href="lifestyle.html">Lifestyle</a></li>
+					            <li class="active"><a href="kids.html">Kids</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="specials.html">Specials</a></li>
+					          </ul>
+					        </li>
+					      </ul>
+					      <ul class="nav navbar-nav navbar-right">
+					        <li class="dropdown">
+					          <a href="tel:1-425-584-7508">425-584-7508</a>
+					        </li>
+					      </ul>
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+				</div>
+		</header>
+
+		<!-- Bike Thumbnails -->
+		<div class="container">
+			<div class="panel panel-default">
+				
+				<!-- Giant Bikes -->
+				<div class="container">
+					<h1>Giant Kids Bikes</h1>
+				</div>
+				<div id="catalogue" class="container-fluid">
+					<!-- Generate Content -->
+					<script>
+					for (i = 0; i < num_items_giant; i++) {
+						if (i % 3 == 0) {
+							document.getElementById('catalogue').innerHTML += '<div class="row">';
+						}
+							document.getElementById('catalogue').innerHTML += '<div class="col-sm-6 col-md-4">'
+								+ '<div class="thumbnail">'
+									+ '<img src=' + bike_pics_giant[i] + '>'
+									+ '<div class="caption">'
+										+ '<h3>' + bike_titles_giant[i] + '</h3>'
+										+ '<p>' + bike_descriptions_giant[i] + '</p>'
+										+ '<p><button type="button" class="btn btn-default" id="btn' + i + '">More Info</button></p>'
+											+ '<div class="modal fade" id="modal' + i + '" role="dialog">'
+											    + '<div class="modal-dialog">'
+											    
+											      //<!-- Modal content-->
+											      + '<div class="modal-content">'
+											        + '<div class="modal-header">'
+											          + '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+											          + '<h4 class="modal-title">' + bike_titles_giant[i] + '</h4>'
+											        + '</div>'
+											        + '<div class="modal-body">'
+											          + '<p>' + bike_modal_descriptions_giant[i] + '</p>'
+											        + '</div>'
+											        + '<div class="modal-footer">'
+											          + '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+											        + '</div>'
+											      + '</div>'
+											  + '</div>'
+											+ '</div>'
+									+ '</div>'
+								+ '</div>'
+							+ '</div>';
+						if (i % 3 == 0) {
+							document.getElementById('catalogue').innerHTML += '</div>';
+						}
+					}
+					</script>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="panel panel-default">
+				<!-- Liv Bikes -->
+				<div class="container">
+					<h1>Liv Kids Bikes</h1>
+				</div>
+				<div id="catalogue-liv" class="container-fluid">
+					<script>
+					for (i = 0; i < num_items_liv; i++) {
+						if (i % 3 == 0) {
+							document.getElementById('catalogue-liv').innerHTML += '<div class="row">';
+						}
+							document.getElementById('catalogue-liv').innerHTML += '<div class="col-sm-6 col-md-4">'
+								+ '<div class="thumbnail">'
+									+ '<img src=' + bike_pics_liv[i] + '>'
+									+ '<div class="caption">'
+										+ '<h3>' + bike_titles_liv[i] + '</h3>'
+										+ '<p>' + bike_descriptions_liv[i] + '</p>'
+										+ '<p><button type="button" class="btn btn-default" id="btn-liv' + i + '">More Info</button></p>'
+											+ '<div class="modal fade" id="modal-liv' + i + '" role="dialog">'
+											    + '<div class="modal-dialog">'
+											    
+											      //<!-- Modal content-->
+											      + '<div class="modal-content">'
+											        + '<div class="modal-header">'
+											          + '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+											          + '<h4 class="modal-title">' + bike_titles_liv[i] + '</h4>'
+											        + '</div>'
+											        + '<div class="modal-body">'
+											          + '<p>' + bike_modal_descriptions_liv[i] + '</p>'
+											        + '</div>'
+											        + '<div class="modal-footer">'
+											          + '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+											        + '</div>'
+											      + '</div>'
+											  + '</div>'
+											+ '</div>'
+									+ '</div>'
+								+ '</div>'
+							+ '</div>';
+						if (i % 3 == 0) {
+							document.getElementById('catalogue-liv').innerHTML += '</div>';
+						}
+					}
+					</script>
+				</div>
+			</div>
+		</div>
+
+		<div class="container"><hr></div>
+		<!-- Copyright Line -->
+	    <footer class="footer">
+	      <div class="container">
+	        <p class="text-muted">&copy; Copyright 2015 - Bike Masters Inc. - Maple Valley, WA</p>
+	      </div>
+	    </footer>
+
+<!-- MUST STAY ON THE BOTTOM -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	
+		<!-- Modal Scripts -->
+		<!-- Giant -->
+		<script>
+		for (i = 0; i < num_items_giant; i++) {
+			setupButton("btn" + i, "modal" + i);
+		}
+		function setupButton(button, modal){
+			$(document).ready(function(){
+		    	$("#" + button).click(function(){
+		        	$("#" + modal).modal();
+		    	});
+			});
+		}
+		</script>
+		<!-- Liv -->
+		<script>
+		for (i = 0; i < num_items_liv; i++) {
+			setupButton("btn-liv" + i, "modal-liv" + i);
+		}
+		function setupButton(button, modal){
+			$(document).ready(function(){
+		    	$("#" + button).click(function(){
+		        	$("#" + modal).modal();
+		    	});
+			});
+		}
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+	background-color: #232323 !important;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+#modal_size {
+	width: 710 !important;
+	height: 700 !important;
+}
