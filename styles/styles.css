@@ -10,3 +10,11 @@ body {
 	width: 710 !important;
 	height: 700 !important;
 }
+
+p {
+	margin: 0;
+}
+
+#map-container {
+	height: 300px;
+}
