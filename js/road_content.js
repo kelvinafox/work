@@ -1,20 +1,20 @@
 // Giant Brand
 var num_items_giant = 9;
 
-var bike_pics_giant = ["pictures/bikes/2016/mtb/Anthem/Anthem-X-29er-Black.jpg",
-				 "pictures/bikes/2016/mtb/Trance/Trance-27.5-2/Trance-275-2-Charcoal.jpg",
-				 "pictures/bikes/2016/mtb/Trance/Trance-27.5-3/Trance-275-3-Black.jpg",
-				 "pictures/bikes/2016/mtb/Stance/Stance-27.5-2/Stance-275-2-Black.jpg",
-				 "pictures/bikes/2016/mtb/Talon/Talon-27.5-1/Talon-275-1-Black-Green.jpg",
+var bike_pics_giant = ["pictures/bikes/2016/road/Propel/Propel-Adv-SL-0/Propel-Advanced-SL-0-Comp.jpg",
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-SL-Team/Propel-Adv-SL-Team.jpg",
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-SL-1/Propel-Advanced-SL-1-Blue.jpg",
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-SL-2/Propel-Advanced-SL-2-Comp-Red.jpg",
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-0/Propel-Advanced-0-Comp.jpg",
 				 "pictures/bikes/2016/mtb/Talon/Talon-27.5-2/Talon-275-2-Silver-Blue.jpg", 
 				 "pictures/bikes/2016/mtb/Talon/Talon-27.5-3/Talon-27-5-3-Charcoal.jpg",
 				 "pictures/bikes/2016/mtb/ATX/ATX-275-2-Black-Red.jpg", 
 				 "pictures/bikes/2016/mtb/Revel/Revel-2/Revel-2-Black.jpg"];
 
-var bike_titles_giant = ["Giant Anthem X 29er",
-				   "Giant Trance 27.5 2",
-				   "Giant Trance 27.5 3",
-				   "Giant Stance 27.5 2",
+var bike_titles_giant = ["Giant Propel Advanced SL 0",
+				   "Giant Propel Advanced SL Team",
+				   "Giant Propel Advanced SL 1",
+				   "Giant Propel Advanced SL 2",
 				   "Giant Talon 27.5 1",
 				   "Giant Talon 27.5 2",
 				   "Giant Talon 27.5 3",
