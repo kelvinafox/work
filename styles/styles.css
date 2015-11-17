@@ -28,7 +28,7 @@ p {
 }
 
 .modal-content { 
-	max-width: 710px; 
+	min-width: 710px; 
 	padding-left: 0px; 
 	margin-left: 0px; 
 	overflow-y: hidden;
@@ -46,6 +46,7 @@ iframe {
 
 .modal-body {
 	overflow: hidden;
+	
 } 
 
 .modal { 
