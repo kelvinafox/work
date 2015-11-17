@@ -5,20 +5,20 @@ var bike_pics_giant = ["pictures/bikes/2016/road/Propel/Propel-Adv-SL-0/Propel-A
 				 "pictures/bikes/2016/road/Propel/Propel-Adv-SL-Team/Propel-Adv-SL-Team.jpg",
 				 "pictures/bikes/2016/road/Propel/Propel-Adv-SL-1/Propel-Advanced-SL-1-Blue.jpg",
 				 "pictures/bikes/2016/road/Propel/Propel-Adv-SL-2/Propel-Advanced-SL-2-Comp-Red.jpg",
-				 "pictures/bikes/2016/road/Propel/Propel-Adv-0/Propel-Advanced-0-Comp.jpg",
-				 "pictures/bikes/2016/mtb/Talon/Talon-27.5-2/Talon-275-2-Silver-Blue.jpg", 
-				 "pictures/bikes/2016/mtb/Talon/Talon-27.5-3/Talon-27-5-3-Charcoal.jpg",
-				 "pictures/bikes/2016/mtb/ATX/ATX-275-2-Black-Red.jpg", 
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-Pro-0/Propel-Advanced-Pro-0-Comp.jpg",
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-0/Propel-Advanced-0-Comp.jpg", 
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-1/Propel-Advanced-1-Comp.jpg",
+				 "pictures/bikes/2016/road/Propel/Propel-Adv-2/Propel-Advanced-2-Comp-White.jpg", 
 				 "pictures/bikes/2016/mtb/Revel/Revel-2/Revel-2-Black.jpg"];
 
 var bike_titles_giant = ["Giant Propel Advanced SL 0",
 				   "Giant Propel Advanced SL Team",
 				   "Giant Propel Advanced SL 1",
 				   "Giant Propel Advanced SL 2",
-				   "Giant Talon 27.5 1",
-				   "Giant Talon 27.5 2",
-				   "Giant Talon 27.5 3",
-				   "Giant ATX 27.5 2",
+				   "Giant Propel Advanced Pro 0",
+				   "Giant Propel Advanced 0",
+				   "Giant Propel Advanced 1",
+				   "Giant Propel Advanced 2",
 				   "Giant Revel 2"];
 
 var bike_descriptions_giant = ["Smooth, stable and in control. Crush technical terrain with this confident XC roller.<br><strong>$2700</strong>",
