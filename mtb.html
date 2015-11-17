@@ -228,29 +228,36 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 	
 		<!-- Modal Scripts -->
-		<!-- Giant -->
+		
 		<script>
+		
+		/* Giant */
+		
 		for (i = 0; i < num_items_giant; i++) {
 			setupButton("btn-giant" + i, "modal-giant" + i);
 		}
+		/* Liv */
+		
+		for (i = 0; i < num_items_liv; i++) {
+			setupButton("btn-liv" + i, "modal-liv" + i);
+		}
+		/* Kona */
+		
+		for (i = 0; i < num_items_kona; i++) {
+			setupButton("btn-kona" + i, "modal-kona" + i);
+		}
+		
+		/*
+		 * Set the on click functionality for the More
+		 * info buttons
+		 */
+		
 		function setupButton(button, modal){
 			$(document).ready(function(){
 		    	$("#" + button).click(function(){
 		        	$("#" + modal).modal();
 		    	});
 			});
-		}
-		</script>
-		<!-- Liv -->
-		<script>
-		for (i = 0; i < num_items_liv; i++) {
-			setupButton("btn-liv" + i, "modal-liv" + i);
-		}
-		
-		</script>
-		<script>
-		for (i = 0; i < num_items_kona; i++) {
-			setupButton("btn-kona" + i, "modal-kona" + i);
 		}
 		
 		</script>
