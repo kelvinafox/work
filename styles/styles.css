@@ -7,8 +7,8 @@ body {
 }
 
 #modal_size {
-	width: 710 !important;
-	height: 700 !important;
+	width: 710px !important;
+	height: 700px !important;
 }
 
 p {
@@ -25,4 +25,29 @@ p {
 
 .logo-align {
 	vertical-align: middle;
+}
+
+.modal-content { 
+	max-width: 710px; 
+	padding-left: 0px; 
+	margin-left: 0px; 
+	overflow-y: hidden;
+} 
+
+iframe { 
+	scrolling: no; 
+	overflow: hidden; 
+	padding-left: 0px; 
+	margin-left: 0px; 
+	max-width: inherit; 
+	max-height: inherit; 
+	overflow: hidden;
+} 
+
+.modal-body {
+	overflow: hidden;
+} 
+
+.modal { 
+	overflow: hidden;
 }
