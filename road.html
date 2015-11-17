@@ -178,24 +178,18 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
 		<!-- Modal Scripts -->
-		<!-- Giant -->
 		<script>
+		
+		/* Giant */
 		for (i = 0; i < num_items_giant; i++) {
 			setupButton("btn-giant" + i, "modal-giant" + i);
 		}
-		function setupButton(button, modal){
-			$(document).ready(function(){
-		    	$("#" + button).click(function(){
-		        	$("#" + modal).modal();
-		    	});
-			});
-		}
-		</script>
-		<!-- Liv -->
-		<script>
+		
+		/* Liv */
 		for (i = 0; i < num_items_liv; i++) {
 			setupButton("btn-liv" + i, "modal-liv" + i);
 		}
+		
 		function setupButton(button, modal){
 			$(document).ready(function(){
 		    	$("#" + button).click(function(){
