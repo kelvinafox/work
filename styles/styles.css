@@ -52,3 +52,7 @@ iframe {
 .modal { 
 	overflow: hidden;
 }
+
+.modal-title {
+	text-align: center;
+}
