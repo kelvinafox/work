@@ -119,7 +119,7 @@ var bike_descriptions_giant = ["This pro peleton standout is the pinnacle of aer
 						 "Hop on, spin the pedals, and feel the stress melt away. Class cruiser style meets modern comfort and design.<br><strong>$330</strong>"];
 
 var bike_modal_descriptions_giant = ["<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600043\"></iframe>",
-						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=651001\"></iframe>",
+						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=615001\"></iframe>",
 						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600044\"></iframe>",
 						       "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600045\"></iframe>",
 						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600040\"></iframe>",
