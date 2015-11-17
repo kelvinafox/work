@@ -118,15 +118,34 @@ var bike_descriptions_giant = ["This pro peleton standout is the pinnacle of aer
 						 "Hop on, spin the pedals, and feel the stress melt away. Class cruiser style meets modern comfort and design.<br><strong>$490</strong>",
 						 "Hop on, spin the pedals, and feel the stress melt away. Class cruiser style meets modern comfort and design.<br><strong>$330</strong>"];
 
-var bike_modal_descriptions_giant = ["This is a test modal body",
-						        "This is a test modal body",
-						        "This is a test modal body",
-						       "This is a test modal body",
-						        "This is a test modal body",
-						        "This is a test modal body",
-						       "This is a test modal body",
-				   		        "This is a test modal body",
-				   		        "This is a test modal body"];
+var bike_modal_descriptions_giant = ["<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600043\"></iframe>",
+						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=651001\"></iframe>",
+						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600044\"></iframe>",
+						       "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600045\"></iframe>",
+						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600040\"></iframe>",
+						        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600020\"></iframe>",
+						       "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600021\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600022\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600052\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600053\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600054\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600049\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600050\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600046\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600047\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600048\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600034\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600035\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600031\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600033\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600015\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600016\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600017\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600029\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600030\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600012\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600014\"></iframe>",
+				   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600115\"></iframe>"];
 
 // Liv Brand
 var num_items_liv = 8;
