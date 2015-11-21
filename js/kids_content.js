@@ -27,14 +27,14 @@ var bike_descriptions_giant = ["The offspring of a well-loved Giant hardtail. Th
 						 "The fun doesn't have to end when a young rider grows taller. With its innovative grow technology, Amplify lasts and lasts.<br><strong>$240</strong>",
 						 "Learning to balance and ride a bike has never been easier or more fun. Pre is the start of something beautiful.<br><strong>$130</strong>"];
 
-var bike_modal_descriptions_giant = ["This is a test modal body",
-						        "This is a test modal body",
-						        "This is a test modal body",
-						       "This is a test modal body",
-						        "This is a test modal body",
-						        "This is a test modal body",
-						       "This is a test modal body",
-				   		        "This is a test modal body"];
+var bike_modal_descriptions_giant = ["<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600619\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600614\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600618\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600617\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600608\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600607\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600605\"></iframe>",
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=570000\"></iframe>"];
 
 var num_items_liv = 7;
 
@@ -49,7 +49,7 @@ var bike_pics_liv = ["pictures/bikes/2016/kids/Enchant-24/Enchant-1-24-Purple.jp
 var bike_titles_liv = ["Liv Enchant 24",
 					   "Liv Enchant 24 Lite",
 				  	   "Liv Enchant 20 Lite",
-				  	   "Live Bella 20",
+				  	   "Liv Bella 20",
 				  	   "Liv Adore 16",
 					   "Liv Adore 12",
 					   "Liv Blossom"];
@@ -62,11 +62,10 @@ var bike_descriptions_liv = ["What makes trail riding fun for kids? It starts wi
 							 "Her first two-wheeler. One of life's greatest experiences. Stable, safe, and fun, The colorful Adore makes it easy.<br><strong>$180</strong>",
 							 "Young ones grow up, and Blossom grows with them. Colors she'll love, and a lasting design that you'll love too.<br><strong>$240</strong>"];
 
-var bike_modal_descriptions_liv = ["This is a test modal body",
-						    	   "This is a test modal body",
-						           "This is a test modal body",
-						    	   "This is a test modal body",
-						           "This is a test modal body",
-						           "This is a test modal body",
-						    	   "This is a test modal body",
-				   		           "This is a test modal body"];
+var bike_modal_descriptions_liv = ["<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600622\"></iframe>",
+						    	   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600626\"></iframe>",
+						           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600625\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600628\"></iframe>",
+						           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600602\"></iframe>",
+						           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600601\"></iframe>",
+						    	   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600611\"></iframe>",];
