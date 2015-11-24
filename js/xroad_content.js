@@ -66,35 +66,38 @@ var bike_modal_descriptions_giant = ["<iframe style=\"border:none\" width=\"710\
 
 var num_items_liv = 8;
 
-var bike_pics_liv = ["pictures/bikes/2016/kids/Enchant-24/Enchant-1-24-Purple.jpg",
-				 	 "pictures/bikes/2016/kids/Enchant-24-Lite/Enchant-24-Lite-White.jpg",
-				 	 "pictures/bikes/2016/kids/Enchant-20/Enchant-20-Lite-Blue.jpg",
-				 	 "pictures/bikes/2016/kids/Bella/Bella-Aqua.jpg",
-				 	 "pictures/bikes/2016/kids/Adore/Adore-CB-16-White.jpg",
-				 	 "pictures/bikes/2016/kids/Adore/Adore-CB-12-Pink.jpg",
-				 	 "pictures/bikes/2016/kids/Blossom/Blossom-CB-Profile-purple-medium.jpg"];
+var bike_pics_liv = ["pictures/bikes/2016/xroad/Brava/Brava-SLR/Brava-SLR.jpg",
+				 	 "pictures/bikes/2016/xroad/Invite/Invite-Comax/Invite-CoMax-White.jpg",
+				 	 "pictures/bikes/2016/xroad/Invite/Invite-2/Invite-2-Black.jpg",
+				 	 "pictures/bikes/2016/xroad/Rove/Rove-2/Rove-2-Disc-DD-White.jpg",
+				 	 "pictures/bikes/2016/xroad/Rove/Rove-Disc-Lite/Rove-Disc-Lite-Silver.jpg",
+				 	 "pictures/bikes/2016/xroad/Rove/Rove-3/Rove-3-Black.jpg",
+				 	 "pictures/bikes/2016/xroad/Sedona-W/Sedona-DX-W/Sedona-DX-W-Black.jpg",
+				 	 "pictures/bikes/2016/xroad/Sedona-W/Sedona-W/Sedona-W-Light-Blue.jpg"];
 
-var bike_titles_liv = ["Liv Enchant 24",
-					   "Liv Enchant 24 Lite",
-				  	   "Liv Enchant 20 Lite",
-				  	   "Live Bella 20",
-				  	   "Liv Adore 16",
-					   "Liv Adore 12",
-					   "Liv Blossom"];
+var bike_titles_liv = ["Liv Brava SLR",
+					   "Liv Invite CoMax",
+					   "Liv Invite 2",
+				  	   "Liv Rove 2",
+				  	   "Liv Rove Disc Lite",
+				  	   "Liv Rove 3",
+					   "Liv Sedona DX W",
+					   "Liv SedonaW"];
 
-var bike_descriptions_liv = ["What makes trail riding fun for kids? It starts with the right bike. Enchant ensures smooth sailing, even on bumpy trails.<br><strong>$340</strong>",
-							 "Lightweight and easy to maneuver, Enchant Lite puts her on a path to adventure.<br><strong>$255</strong>",
-						 	 "Lightweight and easy to maneuver, Enchant Lite puts her on a path to adventure.<br><strong>$235</strong>",
-							 "Spark her sense of adventure. Bella is built to ignite a love for cycling and ourdoor activities.<br><strong>$210</strong>",
-							 "Her first two-wheeler. One of life's greatest experiences. Stable, safe, and fun, The colorful Adore makes it easy.<br><strong>$190</strong>",
-							 "Her first two-wheeler. One of life's greatest experiences. Stable, safe, and fun, The colorful Adore makes it easy.<br><strong>$180</strong>",
-							 "Young ones grow up, and Blossom grows with them. Colors she'll love, and a lasting design that you'll love too.<br><strong>$240</strong>"];
+var bike_descriptions_liv = ["Brave new elements in cyclocross races or adventure rides. Paved roads, dirt, mud or snow - Brava was made for this.<br><strong>$1600</strong>",
+							 "Tackle your next adventure with confidence. Invite CoMax gives you unlimited options on road, gravel and dirt.<br><strong>$1700</strong>",
+						 	 "Feel confident, relaxed and in control on roads, gravel or dirt. Invite is up for any adventure.<br><strong>$1050</strong>",
+							 "Begging for adventure., the versatile Rove has you covered on grave, dirt or wherever your voyage takes you.<br><strong>$670</strong>",
+							 "Main street, side streets or dirt paths. Your choices are limitless with the versatile Rove Disc Lite.<br><strong>$610</strong>",
+							 "Begging for adventure, the versatile Rove has you covered on gravel, dirt or wherever your voyage takes you.<br><strong>$460</strong>",
+							 "A relaxed and confidence-inspiring women's-specific design makes this the perfect choice for any escapade.<br><strong>$440</strong>",
+							 "A relaxed and confidence-inspiring women's-specific design makes this the perfect choice for any escapade.<br><strong>$360</strong>"];
 
-var bike_modal_descriptions_liv = ["This is a test modal body",
-						    	   "This is a test modal body",
-						           "This is a test modal body",
-						    	   "This is a test modal body",
-						           "This is a test modal body",
-						           "This is a test modal body",
-						    	   "This is a test modal body",
-				   		           "This is a test modal body"];
+var bike_modal_descriptions_liv = ["<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600501\"></iframe>",
+						    	   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600514\"></iframe>",
+						           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600513\"></iframe>",
+						    	   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600524\"></iframe>",
+						           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600527\"></iframe>",
+						           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600526\"></iframe>",
+						    	   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600503\"></iframe>",
+				   		           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600504\"></iframe>"];
