@@ -156,10 +156,16 @@ var bike_modal_descriptions_giant = ["<iframe style=\"border:none\" width=\"710\
 									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=616403\"></iframe>"];
 
 // Liv Brand
-var num_items_liv = 8;
+var num_items_liv = 14;
 
-var bike_pics_liv = ["pictures/bikes/2016/mtb/Lust/Lust-1/Lust-1-Blue.jpg",
+var bike_pics_liv = ["pictures/bikes/2016/mtb/Lust/Lust-Adv-0/Lust-Advanced-0-Carbon.jpg",
+					 "pictures/bikes/2016/mtb/Lust/Lust-Adv-1/Lust-Advanced-1-Carbon.jpg",
+					 "pictures/bikes/2016/mtb/Lust/Lust-Adv-2/Lust-Advanced-2-Blue.jpg",
+					 "pictures/bikes/2016/mtb/Lust/Lust-1/Lust-1-Blue.jpg",
 					 "pictures/bikes/2016/mtb/Lust/Lust-2/Lust-2-Black-Pink.jpg",
+					 "pictures/bikes/2016/mtb/Obsess/Obsess-Adv-2/Obsess-Advanced-2-Comp.jpg",
+					 "pictures/bikes/2016/mtb/Intrigue/Intrigue-1/Intrigue-1-Black.jpg",
+					 "pictures/bikes/2016/mtb/Intrigue/Intrigue-SX/Intrigue-SX-Blue.jpg",
 					 "pictures/bikes/2016/mtb/Tempt/Tempt-1/Tempt-1-Black.jpg",
 					 "pictures/bikes/2016/mtb/Tempt/Tempt-2/Tempt-2-White.jpg",
 					 "pictures/bikes/2016/mtb/Tempt/Tempt-3/Tempt-3-Dark-Green.jpg",
@@ -167,8 +173,14 @@ var bike_pics_liv = ["pictures/bikes/2016/mtb/Lust/Lust-1/Lust-1-Blue.jpg",
 					 "pictures/bikes/2016/mtb/Enchant/Enchant-1/Enchant-1-Black-Purple.jpg",
 					 "pictures/bikes/2016/mtb/Enchant/Enchant-2/Enchant-2-White-Blue.jpg"];
 
-var bike_titles_liv = ["Liv Lust 1",
+var bike_titles_liv = ["Liv Lust Advanced 0",
+					   "Liv Lust Advanced 1",
+					   "Liv Lust Advanced 2",
+					   "Liv Lust 1",
 					   "Liv Lust 2",
+					   "Liv Obsess Advanced 2",
+					   "Liv Intrigue 1",
+					   "Liv Intrigue SX",
 					   "Liv Tempt 1",
 					   "Liv Tempt 2",
 					   "Liv Tempt 3",
@@ -176,8 +188,14 @@ var bike_titles_liv = ["Liv Lust 1",
 					   "Liv Enchant 1",
 					   "Liv Enchant 2"];
 
-var bike_descriptions_liv = ["The trifecta of less weight, more control, and increased efficiency equals a fun and confident XC bike.<br><strong>$2900</strong>",
+var bike_descriptions_liv = ["Uncompromising performance on the most challenging singletrack. Take your trail riding to the next level.<br><strong>$9000</strong>",
+							 "Uncompromising performance on the most challenging singletrack. Take your trail riding to the next level.<br><strong>$9000</strong>",
+							 "Uncompromising performance on the most challenging singletrack. Take your trail riding to the next level.<br><strong>$3100</strong>",
+							 "The trifecta of less weight, more control, and increased efficiency equals a fun and confident XC bike.<br><strong>$2900</strong>",
 							 "The trifecta of less weight, more control, and increased efficiency equals a fun and confident XC bike.<br><strong>$2500</strong>",
+							 "Your obsession with XC racing starts here. Obsess is ready to tackle singletrack with precision and agility.<br><strong>$2700</strong>",
+							 "Unleash your potential on technical trails. This women's-specific trail bike helps you take your skills to new heights.<br><strong>$3200</strong>",
+							 "Rocks, roots, fearsome terrain. The smooth and stable Intrigue SX gives you the upper hand on technical trails.<br><strong>$4475</strong>",
 							 "Make your first foray into the dirt or graduate to advanced singletrack. Tempt is designed to be with you all the way.<br><strong>$1400</strong>",
 							 "Make your first foray into the dirt or graduate to advanced singletrack. Tempt is designed to be with you all the way.<br><strong>$1100</strong>",
 							 "Make your first foray into the dirt or graduate to advanced singletrack. Tempt is designed to be with you all the way.<br><strong>$700</strong>",
@@ -194,14 +212,20 @@ var bike_modal_titles_liv = ["Live Lust 1",
 							 "Liv Enchant 1",
 							 "Liv Enchant 2"];
 
-var bike_modal_descriptions_liv = ["This is a test modal body",
-						    	   "This is a test modal body",
-						           "This is a test modal body",
-						    	   "This is a test modal body",
-						    	   "This is a test modal body",
-						           "This is a test modal body",
-						           "This is a test modal body",
-						           "This is a test bodal body"];
+var bike_modal_descriptions_liv = ["<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600316\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600317\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600318\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600314\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600315\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600320\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600311\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600313\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600416\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600407\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600408\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600409\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600517\"></iframe>",
+								   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600518\"></iframe>"];
 
 // Kona Brand
 var num_items_kona = 4;
