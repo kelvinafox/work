@@ -34,7 +34,7 @@ var bike_modal_descriptions_giant = ["<iframe style=\"border:none\" width=\"710\
 									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600608\"></iframe>",
 									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600607\"></iframe>",
 									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600605\"></iframe>",
-									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=570000\"></iframe>"];
+									 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=670000\"></iframe>"];
 
 var num_items_liv = 7;
 
