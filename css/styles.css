@@ -38,18 +38,13 @@ body {
   height: 400px;
   background-color:#555;
 }
-
 .carousel img {
-  position: relative;
-  max-width: 100%
-  height: 500px;
+  position: absolute;
   top: 0;
   left: 0;
-}
-
-img.gallery {
-  position: relative;
-  max-width: 100%;
+  min-height: 400px;
+  max-height: 100%;
+  width: 100%;
 }
 
 
@@ -138,6 +133,23 @@ img.gallery {
   }
 
 }
+
+
+
+/* FOOTER */
+.footer-full {
+  margin: 0 auto;
+  width: 100%;
+
+  background: yellow;
+}
+#footer-color {
+  background: yellow;
+}
+
+
+
+/* MISC. */
 
 span.tab {
   padding: 18px;
