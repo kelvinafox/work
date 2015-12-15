@@ -154,3 +154,10 @@ body {
 span.tab {
   padding: 18px;
 }
+.modal-content {
+  min-width: 710px;
+  padding-left: 0px;
+  margin-left: 0px;
+  overflow-y: hidden;
+  max-width: 710px;
+}
