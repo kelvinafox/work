@@ -28,59 +28,7 @@
 
 <!-- Navbar wrapper
 ================================================== -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Bike Masters</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li>
-                    <a href="about.html">About</a>
-                  </li>
-                  <li>
-                      <a href="services.html">Shop Services</a>
-                  </li>
-                  <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bikes <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                          <li>
-                              <a href="road.html">On-Road</a>
-                          </li>
-                          <li>
-                              <a href="xroad.html">X-Road</a>
-                          </li>
-                          <li>
-                              <a href="mtb.html">Off-Road</a>
-                          </li>
-                          <li>
-                              <a href="kids.html">Kids</a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li>
-                      <a href="contact.html">Contact</a>
-                  </li>
-                  <ul class="nav navbar-nav navbar-right">
-                      <li class="nav navbar-nav">
-                        <a href="tel:1-425-584-7508"><span class="glyphicon glyphicon glyphicon-earphone"></span>425-584-7508&nbsp;</a>
-                      </li>
-                  </ul>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+<?php include ("includes/navbar.php"); ?>
 <!-- Carousel
 ================================================== -->
 <div id="myCarousel" class="carousel slide">
@@ -207,50 +155,7 @@
 </div><!-- /.container -->
 
 <!-- FOOTER -->
-<footer class="footer-distributed">
-  <div class="footer-left">
-    <h3><span>Bike Masters</span></h3>
-    <p class="footer-links">
-      <a href="index.html">Home</a>
-      -
-      <a href="about.html">About</a>
-      -
-      <a href="services.html">Shop Services</a>
-      -
-      <a href="contact.html">Contact</a>
-    </p>
-    <p class="footer-company-name">Bike Masters Inc. &copy; 2015</p>
-  </div>
-
-  <div class="footer-center">
-    <div>
-      <i class="fa fa-map-marker"></i>
-      <p><span>23862 SE Kent-Kangley RD</span> Maple Valley, Wa</p>
-    </div>
-    <div>
-      <i class="fa fa-phone"></i>
-      <p><a href="tel:1-425-584-7508">425-584-7508</a></p>
-    </div>
-    <div>
-      <i class="fa fa-envelope"></i>
-      <p><a href="mailto:info@bikemasters.net">info@bikemasters.net</a></p>
-    </div>
-  </div>
-
-  <div class="footer-right">
-    <p class="footer-company-about">
-      <span>Hours</span>
-      Monday - Friday: 10:00 AM to 7:00 PM<br>
-      Tuesday: 10:00AM to 5:00 PM<br>
-      Saturday: 10:00 AM to 6:00 PM<br>
-      Sunday: 12:00 PM to 5:00 PM
-    </p>
-    <div class="footer-icons">
-      <a href="https://www.facebook.com/BikeMastersandBoards/"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/bikemastersmv/"><i class="fa fa-twitter"></i></a>
-    </div>
-  </div>
-</footer>
+<?php include("includes/footer.html"); ?>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
