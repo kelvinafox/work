@@ -127,7 +127,7 @@
   <hr class="featurette-divider">
 
   <div class="featurette">
-    <img class="featurette-image img-circle pull-right" src="pictures/index/featurettes/notification.jpg">
+    <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/notification.jpg">
     <h2 class="featurette-heading">Holiday Hours</h2>
     <p class="lead">Thursday 12/24 we will be open from 10:00AM until 4:00PM</p>
     <p class="lead">Friday 12/25 we will be closed.</p>
@@ -148,14 +148,6 @@
     <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/service.jpg">
     <h2 class="featurette-heading">Shop Services. <span class="text-muted">Bike Repair.</span></h2>
     <p class="lead">We offer a full-feature bicycle repair shop. Whether it's a flat tire or your electronic shifters aren't working quite right, we've got it handled.</p>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="featurette">
-    <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
-    <h2 class="featurette-heading">One More. <span class="text-muted">Subtitle.</span></h2>
-    <p class="lead">This is where the text goes if you want to use this.</p>
   </div>
 
   <hr class="featurette-divider">
