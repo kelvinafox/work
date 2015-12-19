@@ -99,25 +99,25 @@
       <img class="img-circle" src="pictures/index/models/road.jpg">
       <h2>On-Road Bikes</h2>
       <p>Race, aero, endurance, comfort, long-distance, or around the block.</p>
-      <p><a class="btn btn-default" href="road.html">View details</a></p>
+      <p><a class="btn btn-default" href="road.php">View Bikes</a></p>
     </div>
     <div class="col-md-3 text-center">
       <img class="img-circle" src="pictures/index/models/xroad.jpg">
       <h2>X-Road/Hybrid Bikes</h2>
       <p>Best of both worlds, for those who want to do it all with one bike.</p>
-      <p><a class="btn btn-default" href="xroad.html">View details</a></p>
+      <p><a class="btn btn-default" href="xroad.php">View Bikes</a></p>
     </div>
     <div class="col-md-3 text-center">
       <img class="img-circle" src="pictures/index/models/mtb.jpg">
       <h2>Off-Road Bikes</h2>
       <p>Hardtail, full suspension, cross-country, enduro, or puttering down the trail.</p>
-      <p><a class="btn btn-default" href="mtb.html">View details</a></p>
+      <p><a class="btn btn-default" href="mtb.php">View Bikes</a></p>
     </div>
     <div class="col-md-3 text-center">
       <img class="img-circle" src="pictures/index/models/kids.jpg">
       <h2>Kids Bikes</h2>
       <p>Single-speed with coaster brakes, geared with hand brakes, training wheels to fearless trail blaster.</p>
-      <p><a class="btn btn-default" href="kids.html">View details</a></p>
+      <p><a class="btn btn-default" href="kids.php">View Bikes</a></p>
     </div>
   </div><!-- /.row -->
 
