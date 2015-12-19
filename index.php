@@ -127,6 +127,16 @@
   <hr class="featurette-divider">
 
   <div class="featurette">
+    <img class="featurette-image img-circle pull-right" src="pictures/index/featurettes/notification.jpg">
+    <h2 class="featurette-heading">Holiday Hours</h2>
+    <p class="lead">Thursday 12/24 we will be open from 10:00AM until 4:00PM</p>
+    <p class="lead">Friday 12/25 we will be closed.</p>
+    <p class="lead">Regular hours will resume on Saturday 12/26.</p>
+  </div>
+
+  <hr class"featurette-divider">
+
+  <div class="featurette">
     <img class="featurette-image img-circle pull-right" src="pictures/index/featurettes/hours.jpg">
     <h2 class="featurette-heading">Hours. <span class="text-muted">Swing on By!</span></h2>
     <p class="lead">Mon-Fri: 10-7<br>Tues: 10-5<br>Sat: 10-6<br>Sun: 10-5</p>
