@@ -101,7 +101,7 @@
                 <div class="thumbnail">
                     <img class="img-responsive" src="pictures/about/zach.jpg" alt="">
                     <div class="caption">
-                        <h3>Zach<br>
+                        <h3>Zach Blakely<br>
                             <small>Salesman</small>
                         </h3>
                         <p>Roadie, wears pink socks, broke college student.<br></p>
