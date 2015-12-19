@@ -72,7 +72,6 @@
                         <li>General Cleaning</li>
                         <li>Lubrication</li>
                         <li>Safety Inspection</li>
-                        <br>
                         <li>Parts not Included</li>
                     </ul>
                     <p><strong>Call to schedule an appointment or just bring your bike in.</strong></p>
