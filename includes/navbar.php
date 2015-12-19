@@ -43,7 +43,7 @@
                         </ul>
                     </li>
                     <li <?php if ($id === "contact"){ print 'class="active"';}?>>
-                        <a href='contact.html?id=contact'>Contact</a>
+                        <a href='contact.php?id=contact'>Contact</a>
                     </li>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav navbar-nav">
