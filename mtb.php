@@ -19,7 +19,7 @@
 	    <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/footer.css">
 
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 
         <script src="js/content/mtb_content.js"></script>
 
