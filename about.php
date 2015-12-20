@@ -52,7 +52,7 @@
                 <img class="img-responsive" src="pictures/about/store.jpg" alt="">
             </div>
             <div class="col-md-6">
-                <p>July of 2011 Bike Masters & Boards was born. We tuned skis and snowboards that first winters; tried skateboards the next summer; but this was bour about passion, so we decided to focus on bikes. When we moved to our current location around the 2013 holidays, we dropped the "& Boards" and any pretext that we might be doing this for anything other than the love of bikes.</p>
+                <p>July of 2011 Bike Masters & Boards was born. We tuned skis and snowboards that first winter; tried skateboards the next summer; but this was bour about passion, so we decided to focus on bikes. When we moved to our current location around the 2013 holidays, we dropped the "& Boards" and any pretext that we might be doing this for anything other than the love of bikes.</p>
                 <p>We enjoy what we do, and we think it shows.  People are endlessly fascinating, and there's nothing like the look of someone after they've test ridden the right bike.  Except maybe the look after they've ridden for an hour or two.</p>
                 <p>We ride, we race, we work. We greet regulars by name and just love talking bike.</p>
             </div>

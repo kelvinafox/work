@@ -138,7 +138,7 @@
 
   <div class="featurette">
     <img class="featurette-image img-circle pull-right" src="pictures/index/featurettes/hours.jpg">
-    <h2 class="featurette-heading">Hours. <span class="text-muted">Swing on By!</span></h2>
+    <h2 class="featurette-heading">Hours
     <p class="lead">Mon-Fri: 10-7<br>Tues: 10-5<br>Sat: 10-6<br>Sun: 10-5</p>
   </div>
 
@@ -146,8 +146,9 @@
 
   <div class="featurette">
     <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/service.jpg">
-    <h2 class="featurette-heading">Shop Services. <span class="text-muted">Bike Repair.</span></h2>
+    <h2 class="featurette-heading">Shop Services</h2>
     <p class="lead">We offer a full-feature bicycle repair shop. Whether it's a flat tire or your electronic shifters aren't working quite right, we've got it handled.</p>
+    <p><a class="btn btn-default" href="services.php">More Info</a></p>
   </div>
 
   <hr class="featurette-divider">
