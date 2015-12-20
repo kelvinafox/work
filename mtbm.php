@@ -1,7 +1,7 @@
 <?php
 	$buttonNum = $_POST['num'];
 	$num_items_giant = 35;
-	$bike_modal_descriptions_giant = array('<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=640304"></iframe>',
+	$bike_modal_descriptions_giant = array('<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600304"></iframe>',
 		 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600305"></iframe>',
 		 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600306"></iframe>',
 		 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=640304"></iframe>',
