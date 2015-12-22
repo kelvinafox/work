@@ -111,7 +111,7 @@
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button name="SUBMIT"type="submit" class="btn btn-primary" onclick="this.disabled='disabled'">Send Message</button>
+                    <button name="SUBMIT"type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
 
