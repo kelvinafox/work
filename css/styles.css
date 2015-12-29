@@ -161,3 +161,8 @@ span.tab {
   overflow-y: hidden;
   max-width: 710px;
 }
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
