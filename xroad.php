@@ -86,6 +86,12 @@
             });
         }
         </script>
+        <script>
+            $("body").on('click', '.btn', function(){
+            var buttonVal = $(this).val();
+            $("#modal-dialog" + buttonVal).load('xroad_content.php', {num : buttonVal})
+        })
+        </script>
 
 	</body>
 </html>

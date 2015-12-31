@@ -89,7 +89,7 @@
 		<script>
 			$("body").on('click', '.btn', function(){
             var buttonVal = $(this).val();
-            $("#modal-dialog" + buttonVal).load('mtbm.php', {num : buttonVal})
+            $("#modal-dialog" + buttonVal).load('mtb_content.php', {num : buttonVal})
         })
 		</script>
 
