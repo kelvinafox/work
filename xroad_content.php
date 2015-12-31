@@ -66,6 +66,19 @@
 										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=631502\"></iframe>",
 										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=631501\"></iframe>");
 
+  print '<div class="modal-content" id="modal-content">'
+	. '<div class="modal-header">'
+      . '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+      . '<h4 class="modal-title">' . $bike_titles_giant[$buttonNum] . '</h4>'
+    . '</div>'
+    . '<div class="modal-body">'
+      . '<p>' . $bike_modal_descriptions_giant[$buttonNum] . '</p>'
+    . '</div>'
+    . '<div class="modal-footer">'
+      . '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+    . '</div>'
+	. '</div>';
+
 	$num_items_liv = 8;
 
 	$bike_pics_liv = var("pictures/bikes/2016/xroad/Brava/Brava-SLR/Brava-SLR.jpg",
