@@ -1,5 +1,6 @@
 <?php
-	$buttonNum = $_POST['num');
+	$buttonNum = $_POST['num'];
+	$buttonID = $_POST['id'];
 	$num_items_giant = 8;
 
 	$bike_pics_giant = array("pictures/bikes/2016/kids/XTC-Jr-24/XtC-SL-Jr-24-Dark-Blue.jpg",
@@ -29,14 +30,14 @@
 							 "The fun doesn't have to end when a young rider grows taller. With its innovative grow technology, Amplify lasts and lasts.<br><strong>$240</strong>",
 							 "Learning to balance and ride a bike has never been easier or more fun. Pre is the start of something beautiful.<br><strong>$130</strong>");
 
-	$bike_modal_descriptions_giant = array("<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600619\"></iframe>",
-										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600614\"></iframe>",
-										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600618\"></iframe>",
-										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600617\"></iframe>",
-										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600608\"></iframe>",
-										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600607\"></iframe>",
-										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600605\"></iframe>",
-										 "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=670000\"></iframe>");
+	$bike_modal_descriptions_giant = array('<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600619"></iframe>',
+										 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600614"></iframe>',
+										 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600618"></iframe>',
+										 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600617"></iframe>',
+										 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600608"></iframe>',
+										 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600607"></iframe>',
+										 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600605"></iframe>',
+										 '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=670000"></iframe>');
 
 	$num_items_liv = 7;
 
@@ -64,11 +65,41 @@
 								 "Her first two-wheeler. One of life's greatest experiences. Stable, safe, and fun, The colorful Adore makes it easy.<br><strong>$180</strong>",
 								 "Young ones grow up, and Blossom grows with them. Colors she'll love, and a lasting design that you'll love too.<br><strong>$240</strong>");
 
-	$bike_modal_descriptions_liv = array("<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600622\"></iframe>",
-							    	   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600626\"></iframe>",
-							           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600625\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600628\"></iframe>",
-							           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600602\"></iframe>",
-							           "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600601\"></iframe>",
-							    	   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600611\"></iframe>",);
+	$bike_modal_descriptions_liv = array('<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600622"></iframe>',
+							    	   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600626"></iframe>',
+							           '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600625"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600628"></iframe>',
+							           '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600602"></iframe>',
+							           '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600601"></iframe>',
+							    	   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600611"></iframe>');
+	
+	  if ($buttonID === "btn-giant"){
+	 print '<div class="modal-content" id="modal-content">'
+	. '<div class="modal-header">'
+      . '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+      . '<h4 class="modal-title">' . $bike_titles_giant[$buttonNum] . '</h4>'
+    . '</div>'
+    . '<div class="modal-body">'
+      . '<p>' . $bike_modal_descriptions_giant[$buttonNum] . '</p>'
+    . '</div>'
+    . '<div class="modal-footer">'
+      . '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+    . '</div>'
+	. '</div>';
+	}
+	
+	if ($buttonID === "btn-liv"){
+		print '<div class="modal-content" id="modal-content">'
+						        . '<div class="modal-header">'
+						          . '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+						          . '<h4 class="modal-title">' . $bike_titles_liv[$buttonNum] . '</h4>'
+						        . '</div>'
+						        . '<div class="modal-body">'
+						          . '<p>' . $bike_modal_descriptions_liv[$buttonNum] . '</p>'
+						        . '</div>'
+						        . '<div class="modal-footer">'
+						          . '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+						        . '</div>'
+						      . '</div>';
+	}
 ?>
