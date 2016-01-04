@@ -97,7 +97,7 @@
 					  	   "Liv Rove Disc Lite",
 					  	   "Liv Rove 3",
 						   "Liv Sedona DX W",
-						   "Liv SedonaW");
+						   "Liv Sedona W");
 
 	$bike_descriptions_liv = var("Brave new elements in cyclocross races or adventure rides. Paved roads, dirt, mud or snow - Brava was made for this.<br><strong>$1600</strong>",
 								 "Tackle your next adventure with confidence. Invite CoMax gives you unlimited options on road, gravel and dirt.<br><strong>$1700</strong>",
