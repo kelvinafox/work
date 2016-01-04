@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/footer.css">
 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+
 </head>
 
 <body>
@@ -47,6 +48,9 @@
       <img src="pictures/index/carousel/brava.jpg" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
+          <h1>Road Bikes</h1>
+          <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
+          <p><a class="btn btn-large btn-primary" href="https://kelvinfox.com/work/road.html">Learn more</a></p>
         </div>
       </div>
     </div>
@@ -127,9 +131,9 @@
   <div class="featurette">
     <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/notification.jpg">
     <h2 class="featurette-heading">Holiday Hours</h2>
-    <p class="lead">Thursday 12/31/2015 we will be open from 10:00AM until 4:00PM.</p>
-    <p class="lead">Friday 1/1/2016 we will be closed.</p>
-    <p class="lead">Regular hours will resume on Saturday 1/2/2016.</p>
+    <p class="lead">Thursday 12/24 we will be open from 10:00AM until 4:00PM</p>
+    <p class="lead">Friday 12/25 we will be closed.</p>
+    <p class="lead">Regular hours will resume on Saturday 12/26.</p>
   </div>
 
   <hr class"featurette-divider">

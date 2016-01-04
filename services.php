@@ -105,11 +105,6 @@
                     <p><strong>Rear Shock Service</strong> - $30 + Parts</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-centered">
-                <h3>Hourly Shop Rate - $60/hour</h3>
-            </div>
-        </div>
 
         <hr>
 
