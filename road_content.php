@@ -1,5 +1,6 @@
 <?php
 	$buttonNum = $_POST['num'];
+	$buttonID = $_POST['id'];
 	$num_items_giant = 38;
 	$bike_pics_giant = array("pictures/bikes/2016/road/Propel/Propel-Adv-SL-0/Propel-Advanced-SL-0-Comp.jpg",
 					 "pictures/bikes/2016/road/Propel/Propel-Adv-SL-Team/Propel-Adv-SL-Team.jpg",
@@ -118,44 +119,44 @@
 							 "Hop on, spin the pedals, and feel the stress melt away. Class cruiser style meets modern comfort and design.<br><strong>$490</strong>",
 							 "Hop on, spin the pedals, and feel the stress melt away. Class cruiser style meets modern comfort and design.<br><strong>$330</strong>");
 
-	$bike_modal_descriptions_giant = array("<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600043\"></iframe>",
-							        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=615001\"></iframe>",
-							        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600044\"></iframe>",
-							       "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600045\"></iframe>",
-							        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600040\"></iframe>",
-							        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600020\"></iframe>",
-							       "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600021\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600022\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600052\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600053\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600054\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600049\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600050\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600046\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600047\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600048\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600034\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600035\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600031\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600033\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600015\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600016\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600017\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600029\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600030\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600012\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600014\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600115\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600116\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600117\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600111\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600112\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600113\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600114\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600203\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600201\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600216\"></iframe>",
-					   		        "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600214\"></iframe>");
+	$bike_modal_descriptions_giant = array('<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600043"></iframe>',
+							        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=615001"></iframe>',
+							        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600044"></iframe>',
+							       '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600045"></iframe>',
+							        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600040"></iframe>',
+							        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600020"></iframe>',
+							       '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600021"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600022"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600052"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600053"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600054"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600049"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600050"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600046"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600047"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600048"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600034"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600035"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600031"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600033"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600015"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600016"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600017"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600029"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600030"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600012"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600014"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600115"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600116"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600117"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600111"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600112"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600113"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600114"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600203"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600201"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600216"></iframe>',
+					   		        '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600214"></iframe>');
 
 	// Liv Brand
 	$num_items_liv = 24;
@@ -244,28 +245,57 @@
 								 "Liv Enchant 1",
 								 "Liv Enchant 2");
 
-	$bike_modal_descriptions_liv = array("<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600036\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600037\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600038\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600039\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600018\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600019\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600025\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600024\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600007\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600008\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600009\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600002\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600004\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600005\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600006\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600126\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600127\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600123\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600101\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600105\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600104\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600106\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600217\"></iframe>",
-									   "<iframe style=\"border:none\" width=\"710\" height=\"700\" src=\"https://www.giantretailacademy.com/go/?c=US&axid=600215\"></iframe>");
+	$bike_modal_descriptions_liv = array('<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600036"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600037"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600038"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600039"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600018"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600019"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600025"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600024"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600007"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600008"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600009"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600002"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600004"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600005"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600006"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600126"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600127"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600123"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600101"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600105"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600104"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600106"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600217"></iframe>',
+									   '<iframe style="border:none" width="710" height="700" src="https://www.giantretailacademy.com/go/?c=US&axid=600215"></iframe>');
+	if ($buttonID === "btn-giant"){
+	 print '<div class="modal-content" id="modal-content">'
+	. '<div class="modal-header">'
+      . '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+      . '<h4 class="modal-title">' . $bike_titles_giant[$buttonNum] . '</h4>'
+    . '</div>'
+    . '<div class="modal-body">'
+      . '<p>' . $bike_modal_descriptions_giant[$buttonNum] . '</p>'
+    . '</div>'
+    . '<div class="modal-footer">'
+      . '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+    . '</div>'
+	. '</div>';
+	}
+	
+	if ($buttonID === "btn-liv"){
+		print '<div class="modal-content" id="modal-content">'
+						        . '<div class="modal-header">'
+						          . '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+						          . '<h4 class="modal-title">' . $bike_titles_liv[$buttonNum] . '</h4>'
+						        . '</div>'
+						        . '<div class="modal-body">'
+						          . '<p>' . $bike_modal_descriptions_liv[$buttonNum] . '</p>'
+						        . '</div>'
+						        . '<div class="modal-footer">'
+						          . '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+						        . '</div>'
+						      . '</div>';
+	}
 ?>

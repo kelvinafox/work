@@ -10,7 +10,7 @@ for (i = 0; i < num_items_giant; i++) {
 					+ '<p>' + bike_descriptions_giant[i] + '</p>'
 					+ '<p><button type="button" class="btn btn-default" id="btn-giant' + i + '" value="' + i + '">More Info</button></p>'
 						+ '<div class="modal fade" id="modal-giant' + i + '" role="dialog">'
-						    + '<div class="modal-dialog" id="modal-dialog' + i +'">'
+						    + '<div class="modal-dialog" id="giant-dialog' + i +'">'
 						      //<!-- Modal content-->
 						    
 						  + '</div>'
