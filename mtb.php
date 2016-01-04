@@ -89,7 +89,14 @@
 		<script>
 			$("body").on('click', '.btn', function(){
             var buttonVal = $(this).val();
-            $("#modal-dialog" + buttonVal).load('mtb_content.php', {num : buttonVal})
+			var ID = this.id;
+			var buttonID = ID.replace(/[0-9]/g, '')
+			if (buttonID == "btn-giant") {
+			   $("#giant-dialog" + buttonVal).load('mtb_content.php', {num : buttonVal, id : buttonID})
+            }
+			if (buttonID == "btn-liv"){
+			   $("#liv-dialog" + buttonVal).load('mtb_content.php', {num : buttonVal, id : buttonID})
+            }
         })
 		</script>
 
