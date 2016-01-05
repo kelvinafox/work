@@ -87,10 +87,15 @@
         }
         </script>
         <script>
+			/* Script waits for an object within the body to be clicked with the class of 'btn'.
+			 * Once that requirement has been met it gets the value of the button as well as the
+			 * id of the button. and then depending on the id of the button, it sends the content
+			 * page what button number and whether it was giant or liv.
+			 */
             $("body").on('click', '.btn', function(){
             var buttonVal = $(this).val();
 			var ID = this.id;
-			var buttonID = ID.replace(/[0-9]/g, '')
+			var buttonID = ID.replace(/[0-9]/g, ''); //Takes the button ID and removes the number at the end for easier string comparison.
 			if (buttonID == "btn-giant") {
 			   $("#giant-dialog" + buttonVal).load('xroad_content.php', {num : buttonVal, id : buttonID})
             }
