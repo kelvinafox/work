@@ -48,9 +48,6 @@
       <img src="pictures/index/carousel/brava.jpg" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Road Bikes</h1>
-          <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
-          <p><a class="btn btn-large btn-primary" href="https://kelvinfox.com/work/road.html">Learn more</a></p>
         </div>
       </div>
     </div>
