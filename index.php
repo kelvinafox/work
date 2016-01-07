@@ -125,6 +125,7 @@
 
 
   <!-- START NOTIFICATION SECTION -->
+  <!--
   <div class="featurette">
     <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/notification.jpg">
     <h2 class="featurette-heading">Holiday Hours</h2>
@@ -134,6 +135,8 @@
   </div>
 
   <hr class"featurette-divider">
+
+-->
 
   <!-- /END NOTIFICATION SECTION -->
 
