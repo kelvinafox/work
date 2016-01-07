@@ -143,7 +143,7 @@
   <div class="featurette">
     <img class="featurette-image img-circle pull-right" src="pictures/index/featurettes/hours.jpg">
     <h2 class="featurette-heading">Hours
-    <p class="lead">Mon-Fri: 10-7<br>Tues: 10-5<br>Sat: 10-6<br>Sun: 10-5</p>
+    <p class="lead">Sunday: 12:00 PM to 5:00 PM<br>Monday: 10:00 AM to 7:00 PM<br>Tuesday: 10:00 AM to 5:00 PM<br>Wednesday: 10:00 AM to 7:00 PM<br>Thursday: 10:00 AM to 7:00 PM<br>Friday: 10:00 AM to 7:00 PM<br>Saturday: 10:00AM to 6:00PM</p>
   </div>
 
   <hr class="featurette-divider">
