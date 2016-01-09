@@ -115,7 +115,7 @@
       . '<p>' . $bike_modal_descriptions_giant[$buttonNum] . '</p>'
     . '</div>'
     . '<div class="modal-footer">'
-      . '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+      . '<button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>'
     . '</div>'
 	. '</div>';
 	}
@@ -130,7 +130,7 @@
 						          . '<p>' . $bike_modal_descriptions_liv[$buttonNum] . '</p>'
 						        . '</div>'
 						        . '<div class="modal-footer">'
-						          . '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+						          . '<button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>'
 						        . '</div>'
 						      . '</div>';
 	}
