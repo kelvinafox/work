@@ -86,11 +86,9 @@
 
 <!-- Marketing messaging and featurettes
 ================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container marketing">
 
-  <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-md-3 text-center">
       <img class="img-circle" src="pictures/index/models/road.jpg">
@@ -121,25 +119,19 @@
 
   <!-- START THE FEATURETTES -->
 
+<!-- Sale Information -->
   <hr class="featurette-divider">
-
-
-  <!-- START NOTIFICATION SECTION -->
   
   <div class="featurette">
-    <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/notification.jpg">
-    <h2 class="featurette-heading">Holiday Hours</h2>
-    <p class="lead">Thursday 12/24 we will be open from 10:00AM until 4:00PM</p>
-    <p class="lead">Friday 12/25 we will be closed.</p>
-    <p class="lead">Regular hours will resume on Saturday 12/26.</p>
+    <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/tuneup.jpg">
+    <h2 class="featurette-heading">Leap into March...</h2>
+    <p class="lead">With a deal on tuneups. March 7th to March 18th tuneups are $50.</p>
+    <p class="lead">First come first serve, so hurry in!</p>
   </div>
 
   <hr class"featurette-divider">
 
-
-
-  <!-- /END NOTIFICATION SECTION -->
-
+  <!-- Hours -->
   <div class="featurette">
     <img class="featurette-image img-circle pull-right" src="pictures/index/featurettes/hours.jpg">
     <h2 class="featurette-heading">Hours
@@ -148,6 +140,7 @@
 
   <hr class="featurette-divider">
 
+  <!-- Shop Services -->
   <div class="featurette">
     <img class="featurette-image img-circle pull-left" src="pictures/index/featurettes/service.jpg">
     <h2 class="featurette-heading">Shop Services</h2>

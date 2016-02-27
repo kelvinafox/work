@@ -40,10 +40,6 @@
                             <li <?php if ($id === "kid"){ print 'class="active"';}?>>
                                 <a href='kids.php?id=kid'>Kids</a>
                             </li>
-                            <li class="divider"></li>
-                            <li <?php if ($id === "closeouts"){ print 'class="active"';}?>>
-                                <a href='closeouts.php?id=closeouts'>Closeouts</a>
-                            </li>
                         </ul>
                     </li>
                     <li <?php if ($id === "closeouts"){ print 'class="active"';}?>>
