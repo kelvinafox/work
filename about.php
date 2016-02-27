@@ -104,7 +104,7 @@
                         <h3>Branden Russell<br>
                             <small>Salesman</small>
                         </h3>
-                        <!-- <p>Text Here<br></p> -->
+                        <p>Lover of bikes, coffee, and classic BMWs.<br></p>
                     </div>
                 </div>
             </div>
