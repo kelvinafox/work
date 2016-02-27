@@ -51,12 +51,12 @@
                 <img width="1000" height="600" src="pictures/closeouts/yeti_sb5c.jpg">
                 <br>
                 <p>
-                    Frame - Carbon
-                    Shifters - SRAM X.9 2x10
-                    Rear Derailleur - SRAM X.9
-                    Front Derailleur - Shimano SLX
-                    Brakes - SRAM Guide Hydraulic
-                    <br>
+                    Frame - Carbon<br>
+                    Shifters - SRAM X.9 2x10<br>
+                    Rear Derailleur - SRAM X.9<br>
+                    Front Derailleur - Shimano SLX<br>
+                    Brakes - SRAM Guide Hydraulic<br>
+                    
                     Available in Medium
                     <br><br>
                     <h4 style="margin:0;">Was $6300</h4>
@@ -73,13 +73,13 @@
                 <h1>Kona Wo</h1>
                 <img width="1000" height="600" src="pictures/closeouts/kona_wo.jpg">
                 <p>
-                    Fork - Carbon
-                    Frame - Aluminum
-                    Shifters - Shimano Deore 2x10
-                    Rear Derailleur - Shimano SLX Shadow+
-                    Front Derailleur - Shimano Deore
-                    Brakes - Shimano Deore Hydraulic
-                    <br>
+                    Fork - Carbon<br>
+                    Frame - Aluminum<br>
+                    Shifters - Shimano Deore 2x10<br>
+                    Rear Derailleur - Shimano SLX Shadow+<br>
+                    Front Derailleur - Shimano Deore<br>
+                    Brakes - Shimano Deore Hydraulic<br>
+                    
                     Available in Extra-Large
                     <br><br>
                     <h4 style="margin:0;">Was $2099</h4>
@@ -96,13 +96,13 @@
                 <h1>Giant Defy Advanced 2 - 2015</h1>
                 <img width="1000" height="600" src="pictures/closeouts/defy_adv_2.jpg">
                 <p>
-                    Frame - Giant Advanced Grade Carbon Fiber
-                    Shifters - Shimano 105 5800 2x11
-                    Rear Derailleur - Shimano 105 5800 11-Speed
-                    Front Derailleur - Shimano 105 5800
-                    Brakes - TRP Spyre Disc Brakes
-                    Wheels - Giant PR-2 Wheels
-                    <br>
+                    Frame - Giant Advanced Grade Carbon Fiber<br>
+                    Shifters - Shimano 105 5800 2x11<br>
+                    Rear Derailleur - Shimano 105 5800 11-Speed<br>
+                    Front Derailleur - Shimano 105 5800<br>
+                    Brakes - TRP Spyre Disc<br>
+                    Wheels - Giant PR-2 Wheels<br>
+                    
                     Available in Medium/Large (Not medium and large, but M/L).
                     <br><br>
                     <h4 style="margin:0;">Was $2125</h4>
@@ -119,13 +119,13 @@
                 <h1>Giant Defy Advanced 3 - 2015</h1>
                 <img width="1000" height="600" src="pictures/closeouts/defy_adv_3-black.jpg">
                 <p>
-                    Frame - Giant Advanced Grade Carbon Fiber
-                    Shifters - Shimano Tiagra 4700 2x10
-                    Rear Derailleur - Shimano Tiagra 4700 10-Speed
-                    Front Derailleur - Shimano Tiagra 4700
-                    Brakes - TRP Spyre Disc Brakes
-                    Wheels - Giant SR-2 Wheels
-                    <br>
+                    Frame - Giant Advanced Grade Carbon Fiber<br>
+                    Shifters - Shimano Tiagra 4700 2x10<br>
+                    Rear Derailleur - Shimano Tiagra 4700 10-Speed<br>
+                    Front Derailleur - Shimano Tiagra 4700<br>
+                    Brakes - TRP Spyre Disc Brakes<br>
+                    Wheels - Giant SR-2 Wheels<br>
+                    
                     Available in Medium.
                     <br><br>
                     <h4 style="margin:0;">Was $1800</h4>
@@ -142,13 +142,13 @@
                 <h1>Giant Defy Advanced 3 - 2015</h1>
                 <img width="1000" height="600" src="pictures/closeouts/defy_adv_3-blue.jpg">
                 <p>
-                    Frame - Giant Advanced Grade Carbon Fiber
-                    Shifters - Shimano Tiagra 4700 2x10
-                    Rear Derailleur - Shimano Tiagra 4700 10-Speed
-                    Front Derailleur - Shimano Tiagra 4700
-                    Brakes - TRP Spyre Disc Brakes
-                    Wheels - Giant SR-2 Wheels
-                    <br>
+                    Frame - Giant Advanced Grade Carbon Fiber<br>
+                    Shifters - Shimano Tiagra 4700 2x10<br>
+                    Rear Derailleur - Shimano Tiagra 4700 10-Speed<br>
+                    Front Derailleur - Shimano Tiagra 4700<br>
+                    Brakes - TRP Spyre Disc Brakes<br>
+                    Wheels - Giant SR-2 Wheels<br>
+                    
                     Available in Medium.
 
                     <br><br>
@@ -166,12 +166,14 @@
                 <h1>Kona Coco</h1>
                 <img width="1000" height="600" src="pictures/closeouts/kona_coco.jpg">
                 <p>
-                    Frame - Aluminum
-                    Shifter - Shimano Alivio 9-Speed
-                    Rear Derailleur - Shimano Alivio 9-Speed
-                    Brakes - Tektro Novela Disc Brakes
-                    Includes Fenders
+                    Frame - Aluminum<br>
+                    Shifter - Shimano Alivio 9-Speed<br>
+                    Rear Derailleur - Shimano Alivio 9-Speed<br>
+                    Brakes - Tektro Novela Disc Brakes<br>
+                    Includes Fenders<br>
 
+                    Available in Small, Medium, and Large.
+                    
                     <br><br>
                     <h4 style="margin:0;">Was $699</h4>
                     <h3 style="color:red;">Now $490</h3>

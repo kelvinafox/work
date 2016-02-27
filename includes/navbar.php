@@ -46,6 +46,9 @@
                             </li>
                         </ul>
                     </li>
+                    <li <?php if ($id === "closeouts"){ print 'class="active"';}?>>
+                        <a href='closeouts.php?id=closeouts'>Closeouts Bikes</a>
+                    </li>
                     <li <?php if ($id === "contact"){ print 'class="active"';}?>>
                         <a href='contact.php?id=contact'>Contact</a>
                     </li>
