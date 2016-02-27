@@ -99,12 +99,12 @@
             </div>
             <div class="col-md-6 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="pictures/about/zach.jpg" alt="">
+                    <img class="img-responsive" src="pictures/about/branden.jpg" alt="">
                     <div class="caption">
-                        <h3>Zach Blakely<br>
+                        <h3>Branden Russell<br>
                             <small>Salesman</small>
                         </h3>
-                        <p>Roadie, wears pink socks, broke college student.<br></p>
+                        <!-- <p>Text Here<br></p> -->
                     </div>
                 </div>
             </div>
